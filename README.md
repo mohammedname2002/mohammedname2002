@@ -49,4 +49,4 @@ Most of my production work belongs to employers and clients, so the repositories
 
 Arabic (native) · English (C1) · Turkish (B1)
 
-📫 mohammedname2002@gmail.com
+📫 mohammedname2002@gmail.com · [LinkedIn](https://www.linkedin.com/in/mohammed-a-ashqar)
