@@ -28,16 +28,21 @@ I care about code that the next developer can read: thin controllers, explicit d
 |---|---|
 | [**portfolio-cms**](https://github.com/mohammedname2002/portfolio-cms) | Laravel 12 bilingual (EN/AR, RTL) CMS. Actions, DTOs, repositories behind interfaces, strategy pattern for pricing and video providers, an enum-driven state machine, 62 tests, CI. |
 
-### Client & company work (private code)
+### 🔒 Private projects (client & company work)
 
-Most of what I've built belongs to employers and clients, so the code isn't public. In short:
+Most of my production work belongs to employers and clients, so the repositories are private. Here is what I built and my role in each:
 
-- **TechZone for Solutions (2024–2026):**
-  - Co-developed the backend of a **fault-reporting and ticketing platform for an electricity provider** (Laravel 12 + React/Inertia, REST APIs for a mobile app, Excel import/export, CI).
-  - Built a **real-estate marketplace API** for a mobile app, with property approval workflows and **WaafiPay** mobile-money payments.
-  - Extended several **e-commerce platforms** with custom APIs, coupons and banner systems.
-- **MDM Company (2022–2024):** built an **invoicing system** (invoices, credit notes, payment tracking, Livewire search) and the company websites (Filament CMS).
-- **Freelance (2021–present):** an **LMS** with Moodle integration and REST APIs, a **donation platform** with a payment-provider integration, and admin dashboards.
+| Project | Domain | Stack | My role & highlights |
+|---|---|---|---|
+| **Danab** | Fault-reporting & ticketing for an electricity provider | Laravel 12, React + Inertia, TypeScript, REST API, GitHub Actions | Co-developed the backend: ticket assignment, field-staff workflows, mobile APIs, Excel import/export, API docs |
+| **HomeKey** | Real-estate marketplace (web + mobile app) | Laravel 11, Passport, REST API, Telescope | Built the backend: property approval flow, agent subscriptions, mobile APIs, **WaafiPay** mobile-money payments |
+| **Wefrh Assistant** | Companion API platform for a marketplace app | Laravel 11, Filament, Passport, versioned REST API | Co-developed: cached repository layer, API gateway, auditing, SMS integration, Postman docs |
+| **Sawt** | Learning platform (LMS) | Laravel 11, Filament 3, Spatie, REST API | Contributed features, payment integration (PayPal) and API resources |
+| **Hilal · Karoto · Tullana** | Multi-vendor e-commerce (web + mobile) | Laravel, REST API | Extended the platforms with custom APIs, coupon and banner systems and client-specific features |
+| **Fajr Relief** | Donation & fundraising | Laravel 10, Sanctum API | Integrated a third-party donation / payment API through a dedicated service layer |
+| **MDM** | Invoicing system & company websites | Laravel, Livewire, Filament | Built the invoicing system (invoices, credit notes, payment tracking) and the Filament-based company CMS |
+
+<sub>Code is private under client agreements; happy to walk through the architecture in an interview.</sub>
 
 ### Languages
 
