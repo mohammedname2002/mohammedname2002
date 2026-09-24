@@ -6,10 +6,21 @@ I care about code that the next developer can read: thin controllers, explicit d
 
 ### Tech
 
-**Backend:** PHP 8, Laravel (11/12), Node.js, REST APIs, Sanctum / Passport / JWT, queues & events
-**Data:** MySQL, PostgreSQL, Redis
-**Frontend (when needed):** Blade, Livewire, Filament, Alpine.js, Tailwind, React + Inertia
-**Tooling:** Git, GitHub Actions, PHPUnit / Pest, Pint, Docker, Postman / OpenAPI
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,ts,mysql,postgres,redis,docker,githubactions,tailwind,react&perline=11" alt="PHP, Laravel, Node.js, TypeScript, MySQL, PostgreSQL, Redis, Docker, GitHub Actions, Tailwind, React" />
+</p>
+
+**Backend:** PHP 8, Laravel (11/12), Node.js, REST APIs, Sanctum / Passport / JWT, queues & events<br>
+**Data:** MySQL, PostgreSQL, Redis<br>
+**Frontend (when needed):** Blade, Livewire, Filament, Alpine.js, Tailwind, React + Inertia<br>
+**Tooling:** Git, GitHub Actions, PHPUnit / Pest, Pint, PHPStan, Docker, Postman / OpenAPI
+
+### How I build
+
+- **Thin controllers.** Requests are validated in FormRequests, turned into DTOs and handled by single-purpose Actions or Services.
+- **Domain rules live in one place.** I use enums as state machines, value objects for money, and strategies for things that vary (pricing, payment providers).
+- **Tests describe the behaviour**, and CI runs them with a style check and static analysis on every push.
+- **Integrations fail safely.** That means signature-verified webhooks, idempotency keys, timeouts and retries.
 
 ### Featured work
 
