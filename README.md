@@ -26,6 +26,7 @@ I care about code that the next developer can read: thin controllers, explicit d
 
 | Project | What it shows |
 |---|---|
+| [**laravel-payment-gateways**](https://github.com/mohammedname2002/laravel-payment-gateways) | Laravel package that puts Stripe, PayPal and WaafiPay (East-African mobile money) behind one API. It has a Money value object, idempotent requests, signature-verified webhooks turned into Laravel events, and `Payments::fake()` for tests. 212 tests, PHPStan at max level, CI on PHP 8.2–8.4 × Laravel 11/12. |
 | [**portfolio-cms**](https://github.com/mohammedname2002/portfolio-cms) | Laravel 12 bilingual (EN/AR, RTL) CMS. Actions, DTOs, repositories behind interfaces, strategy pattern for pricing and video providers, an enum-driven state machine, 62 tests, CI. |
 
 ### 🔒 Private projects (client & company work)
