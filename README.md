@@ -26,9 +26,10 @@ I care about code that the next developer can read: thin controllers, explicit d
 
 | Project | What it shows |
 |---|---|
-| [**invoice-system**](https://github.com/mohammedname2002/invoice-system) | Laravel 12 + Livewire invoicing & receivables app: invoices with line items, partial payments, credit notes with restocking, derived statuses, PDF documents, reports and role-based access. 88 tests, CI. |
-| [**laravel-payment-gateways**](https://github.com/mohammedname2002/laravel-payment-gateways) | Laravel package that puts Stripe, PayPal and WaafiPay (East-African mobile money) behind one API. It has a Money value object, idempotent requests, signature-verified webhooks turned into Laravel events, and `Payments::fake()` for tests. 212 tests, PHPStan at max level, CI on PHP 8.2–8.4 × Laravel 11/12. |
-| [**portfolio-cms**](https://github.com/mohammedname2002/portfolio-cms) | Laravel 12 bilingual (EN/AR, RTL) CMS. Actions, DTOs, repositories behind interfaces, strategy pattern for pricing and video providers, an enum-driven state machine, 62 tests, CI. |
+| [**laravel-lazarus**](https://github.com/mohammed-a-ashqar/laravel-lazarus) | Self-healing Laravel package: a production exception becomes a failing reproduction test, a minimal patch, a green full suite and a draft pull request, never an auto-merge. Secrets are redacted, edits run in a sandboxed git worktree, and it works with Anthropic, OpenAI-compatible APIs or local Ollama. 123 tests, PHPStan at max level, CI. |
+| [**invoice-system**](https://github.com/mohammed-a-ashqar/invoice-system) | Laravel 12 + Livewire invoicing & receivables app: invoices with line items, partial payments, credit notes with restocking, derived statuses, PDF documents, reports and role-based access. 88 tests, CI. |
+| [**laravel-payment-gateways**](https://github.com/mohammed-a-ashqar/laravel-payment-gateways) | Laravel package that puts Stripe, PayPal and WaafiPay (East-African mobile money) behind one API. It has a Money value object, idempotent requests, signature-verified webhooks turned into Laravel events, and `Payments::fake()` for tests. 212 tests, PHPStan at max level, CI on PHP 8.2–8.4 × Laravel 11/12. |
+| [**portfolio-cms**](https://github.com/mohammed-a-ashqar/portfolio-cms) | Laravel 12 bilingual (EN/AR, RTL) CMS. Actions, DTOs, repositories behind interfaces, strategy pattern for pricing and video providers, an enum-driven state machine, 62 tests, CI. |
 
 ### 🔒 Private projects (client & company work)
 
